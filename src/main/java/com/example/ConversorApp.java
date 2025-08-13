@@ -1,6 +1,6 @@
 package com.example;
 
-public class Principal {
+public class ConversorApp {
     public static void main(String[] args) {
 
     }
