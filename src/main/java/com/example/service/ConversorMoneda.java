@@ -15,6 +15,10 @@ public class ConversorMoneda {
         this.tasasCambio = obtenerTasas(Arrays.asList("ARS", "BOB", "BRL", "CLP", "COP", "PEN"));
     }
 
+    public Map<String, Double> getTasasCambio() {
+        return tasasCambio;
+    }
+
     private ClienteAPI iniciarCliente(){//abierto a personalizacion con otras APIs
         return new ExchangeRateAPI();
     }
